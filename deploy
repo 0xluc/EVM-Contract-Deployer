@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+python scripts/contract_modifier.py
+brownie run scripts/deployer.py --network bsc-test # change the network here
