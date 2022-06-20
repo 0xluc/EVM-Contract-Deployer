@@ -1,3 +1,4 @@
 #!/usr/bin/bash
+read -p "Enter network: " network
 python scripts/contract_modifier.py
-brownie run scripts/deployer.py --network bsc-test # change the network here
+brownie run scripts/deployer.py --network $network # change the network here

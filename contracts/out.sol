@@ -2,7 +2,7 @@
 /*
 
 
- MiqueinhaCoin
+ ]Testefinal2
  TG:  
  Website:  
 
@@ -161,11 +161,11 @@ library Address{
     
     uint256 public genesis_block;
 
-    address public marketingWallet = 0xe91527A8B992c2eB9fe598f7711Dc3CB9ba8147f;
-    address public donationWallet = 0xe91527A8B992c2eB9fe598f7711Dc3CB9ba8147f;
+    address public marketingWallet = 0x63B1243E3605d8b33a8a6492e213216Dd0dACF99;
+    address public donationWallet = 0x63B1243E3605d8b33a8a6492e213216Dd0dACF99;
 
-    string private constant _name = "MiqueinhaCoin";
-    string private constant _symbol = "MC";
+    string private constant _name = "]Testefinal2";
+    string private constant _symbol = "TF";
 
     struct Taxes {
         uint256 rfi;
